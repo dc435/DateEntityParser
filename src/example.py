@@ -26,8 +26,9 @@ dtparser = parser()
 dates = [dtparser.parse(date) for date in date_entities] # If using date_entites list of strings
 dates.sort(key=lambda d: d.formatted)
 print("%12s | %20s | %18s | %18s | %s" % ("PY DATE", "FORMAT", "SUCCESSFUL PARSE", "DISPLAY DATE", "ORIGINAL TEXT"))
+print("%12s | %20s | %18s | %18s | %s" % ("---", "---", "---", "---", "---"))
 for date in dates:
-    print("%12s : %20s : %18s : %18s : '%s'" % (date.formatted, date.format, date.success, date.display_date(), date.text))
+    print("%12s | %20s | %18s | %18s | '%s'" % (date.formatted, date.format, date.success, date.display_date(), date.text))
 
 
 """
