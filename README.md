@@ -43,30 +43,28 @@ About six months later, after the Beatles completed their second Hamburg residen
 
 **Formatted output:**
 
-     PY DATE |               FORMAT |   SUCCESSFUL PARSE |       DISPLAY DATE | ORIGINAL TEXT
-         --- |                  --- |                --- |                --- | ---
-  1956-12-28 |         DateFormat.Y |               True |               1956 | 'the last weeks of 1956'
-  1957-07-06 |       DateFormat.DMY |               True |        6 July 1957 | '6 July 1957'
-  1958-02-01 |        DateFormat.MY |               True |      February 1958 | 'February 1958'
-  1958-03-01 |        DateFormat.MY |               True |         March 1958 | 'the first week of March 1958'
-  1958-05-01 |        DateFormat.MY |               True |           May 1958 | 'May 1958'
-  1959-01-01 |        DateFormat.MY |               True |       January 1959 | 'early January 1959'
-  1959-08-17 |       DateFormat.DMY |               True |     17 August 1959 | '17 August 1959'
-  1960-01-01 |        DateFormat.MY |               True |       January 1960 | 'January 1960'
-  1960-07-01 |        DateFormat.MY |               True |          July 1960 | 'early July 1960'
-  1960-08-15 |        DateFormat.MY |               True |        August 1960 | 'the middle of August 1960'
-  1960-08-15 |        DateFormat.MY |               True |        August 1960 | 'mid-August 1960'
-  1960-08-28 |        DateFormat.MY |               True |        August 1960 | 'late-August 1960'
-  1960-11-28 |        DateFormat.MY |               True |      November 1960 | 'late Nov 1960'
-  1960-12-01 |        DateFormat.MY |               True |      December 1960 | 'the beginning of December 1960'
-  1961-01-01 |         DateFormat.Y |               True |               1961 | '1961'
-  1961-02-28 |        DateFormat.MY |               True |      February 1961 | 'around the end of February 1961'
-  1961-06-28 |        DateFormat.MY |               True |          June 1961 | 'the final days of June 1961'
-  1961-07-15 |         DateFormat.Y |               True |               1961 | 'about mid-1961'
-  1961-10-15 |        DateFormat.MY |               True |       October 1961 | 'mid-late Oct 1961'
-  1961-11-28 |        DateFormat.MY |               True |      November 1961 | 'the tax year ending November 1961'
-  1962-06-01 |        DateFormat.MY |               True |          June 1962 | 'June 1962'
-  9999-12-31 |   DateFormat.UNKNOWN |              False |                (?) | 'about four weeks'
-  9999-12-31 |   DateFormat.UNKNOWN |              False |                (?) | 'About six months later'
-
-
+|      PY DATE |               FORMAT |   SUCCESSFUL PARSE |       DISPLAY DATE | ORIGINAL TEXT                            |
+| ---          | ---                  | ---                | ---                | ---                                      |
+|   1956-12-28 |         DateFormat.Y |               True |               1956 | the last weeks of 1956                   |
+|   1957-07-06 |       DateFormat.DMY |               True |        6 July 1957 | 6 July 1957                              |
+|   1958-02-01 |        DateFormat.MY |               True |      February 1958 | February 1958                            |
+|   1958-03-01 |        DateFormat.MY |               True |         March 1958 | the first week of March 1958             |
+|   1958-05-01 |        DateFormat.MY |               True |           May 1958 | May 1958                                 |
+|   1959-01-01 |        DateFormat.MY |               True |       January 1959 | early January 1959                       |
+|   1959-08-17 |       DateFormat.DMY |               True |     17 August 1959 | 17 August 1959                           |
+|   1960-01-01 |        DateFormat.MY |               True |       January 1960 | January 1960                             |
+|   1960-07-01 |        DateFormat.MY |               True |          July 1960 | early July 1960                          |
+|   1960-08-15 |        DateFormat.MY |               True |        August 1960 | the middle of August 1960                |
+|   1960-08-15 |        DateFormat.MY |               True |        August 1960 | mid-August 1960                          |
+|   1960-08-28 |        DateFormat.MY |               True |        August 1960 | late-August 1960                         |
+|   1960-11-28 |        DateFormat.MY |               True |      November 1960 | late Nov 1960                            |
+|   1960-12-01 |        DateFormat.MY |               True |      December 1960 | the beginning of December 1960           |
+|   1961-01-01 |         DateFormat.Y |               True |               1961 | 1961                                     |
+|   1961-02-28 |        DateFormat.MY |               True |      February 1961 | around the end of February 1961          |
+|   1961-06-28 |        DateFormat.MY |               True |          June 1961 | the final days of June 1961              |
+|   1961-07-15 |         DateFormat.Y |               True |               1961 | about mid-1961                           |
+|   1961-10-15 |        DateFormat.MY |               True |       October 1961 | mid-late Oct 1961                        |
+|   1961-11-28 |        DateFormat.MY |               True |      November 1961 | the tax year ending November 1961        |
+|   1962-06-01 |        DateFormat.MY |               True |          June 1962 | June 1962                                |
+|   9999-12-31 |   DateFormat.UNKNOWN |              False |                (?) | about four weeks                         |
+|   9999-12-31 |   DateFormat.UNKNOWN |              False |                (?) | About six months later                   |
