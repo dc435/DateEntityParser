@@ -1,5 +1,7 @@
 ## DateEntityParser
 
+A rules-based date-string parser.
+
 A wrapper for the dateutil parser (https://github.com/dateutil/dateutil/), built specifically to parse longer Date Entity strings extracted using Named Entity Recognition (NER) tools, such as in SpaCy. Also utilizing the pyparsing library (https://github.com/pyparsing/pyparsing).
 
 ## Benefits
